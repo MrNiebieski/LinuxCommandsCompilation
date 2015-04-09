@@ -34,3 +34,14 @@ check if ip_forwarding is enabled, to chnage:
     ssh -f usr@host shutdown -h now
 
 `-f:`no login
+
+###SCP:###
+####*IMPORTANT: scp does not ask before overwriting*####
+
+download:
+
+    scp usr@host:remotefolder/file ./
+
+download:
+
+    scp localfile usr@host:remotefolder/ 
