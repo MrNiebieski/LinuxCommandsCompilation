@@ -1,19 +1,36 @@
 ##git##
+---
+###_log_###
+
+quick and short way of showing logs:
+
+    git reflog
+
+display diff of last 2 commits:
 
     git log -p -2
 
-display diff of last 2 commits
+show number of lines changed
 
     git log --stat
-
-show number of lines changed
+---
+"git way" of renaming files
 
     giv mv oldname newname
     git commit -m "rename oldname to newname"
-    
-    
-----
-##.gitignore##
+---
+###_add&commit_###
+interactively "add", very helpful tool:
+
+    git add -i 
+ 
+quick way of committing single change:
+
+    git commit -am "commit description"
+---
+###_.gitignore_###
 
     #comments
     *.[oa]
+    #not
+    !exception.o
