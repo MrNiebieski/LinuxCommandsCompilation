@@ -15,3 +15,5 @@ ls variations:
 [git Related](./git.md)
 
 [LAMP Related](./LAMP.md) Linux Apache MySQL PHP
+
+[linux Related](./linux.md)
