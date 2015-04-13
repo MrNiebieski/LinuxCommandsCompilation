@@ -1,8 +1,10 @@
 # LinuxCommandsCompilation
 MrNiebieski's personal favorite commands
 
-The design guide-line for this "battery-included"
-for example for `ls`, I will list a few common variations:
+The design guide-line for this document is "battery-included".
+This is more of a trick&cheat sheet rather than introductory materials.
+
+For example for `ls`, I will list a few useful variations:
 
 ls variations:
 
