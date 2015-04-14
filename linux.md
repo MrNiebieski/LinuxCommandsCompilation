@@ -35,11 +35,11 @@ suspend and resume:
     [Ctrl+] Z
     fg
     
-    
+
 ---
 ###_keyboard shortcut_###
 ---
-`ESC+.` last argument
+`ESC+.` paste last argument
 
 combo:
 
@@ -56,3 +56,13 @@ Therefore, to delete a line line while the cursor is somewhere in the middle
 
     Ctrl+(u then k)
 
+---
+###_start up setting_###
+---
+To switch betwen GUI mode and text mode (CentOS, RedHat), `sudo vim /etc/inittab`
+
+Text:
+    id:3:initdefault:
+
+GUI:
+    id:5:initdefault:
