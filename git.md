@@ -20,6 +20,7 @@ show number of lines changed
     git commit -m "rename oldname to newname"
 ---
 ###_add&commit_###
+---
 interactively "add", very helpful tool:
 
     git add -i 
@@ -27,8 +28,19 @@ interactively "add", very helpful tool:
 quick way of committing single change:
 
     git commit -am "commit description"
+
+---
+###_branching_###
+---
+
+create a new branch and switch to it:
+
+    git checkout -b <newBranchName>
+
+
 ---
 ###_.gitignore_###
+---
 
     #comments
     *.[oa]
