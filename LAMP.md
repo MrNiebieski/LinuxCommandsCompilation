@@ -5,3 +5,13 @@
     ALTER TABLE `table_name` AUTO_INCREMENT = 1;
     
 clean a talbe, but keep the schema (without using `DROP TABLE`)
+
+log in:
+
+    mysql -u <UserName> -p
+
+enter password after prompt.
+
+
+    show databases;
+
