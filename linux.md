@@ -11,6 +11,24 @@ ls variations:
 
 `al` list hidden file, `ll` is short, (not supported by every version of linux), `thor` because of this is funny.
 
+
+cd variations:
+
+go to home:
+    cd ~
+
+go to last folder:
+    cd -
+
+
+---
+###_grep_###
+---
+
+example:
+
+    grep stringYouWantToFind */*/*.php
+
 ---
 ###_system info_###
 ---
