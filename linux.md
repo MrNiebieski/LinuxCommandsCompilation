@@ -29,6 +29,17 @@ example:
 
     grep stringYouWantToFind */*/*.php
 
+recursive grep:
+
+    grep -r stringYouWantToFind .
+    grep -R stringYouWantToFind .
+
+`-R` will folow symlinks. `.` is this directory, `"stringYouWantToFind"` must have `"` if there is spaces etc. in the string.
+
+Or
+
+    grep -r --include "*.php" stringYouWantToFind .
+
 ---
 ###_system info_###
 ---
