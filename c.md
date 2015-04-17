@@ -9,6 +9,12 @@ if the makefile does not have default name like makefile or Makefile, it is poss
 ---
 ###_gdb_###
 ---
+gdb options
+
+|command line|effect|
+|------------|------|
+|r|run|
+|l|list|
 
 
 ---
