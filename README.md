@@ -19,3 +19,5 @@ ls variations:
 [LAMP Related](./LAMP.md) Linux Apache MySQL PHP
 
 [linux Related](./linux.md)
+
+[c Related: gcc/gdb/makefile](./c.md)
