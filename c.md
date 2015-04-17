@@ -14,3 +14,9 @@ if the makefile does not have default name like makefile or Makefile, it is poss
 ---
 ###_gcc_###
 ---
+
+gcc optinos:
+
+    -g extra debugging info
+    -o file output should be named file
+    -c compile without linking 
