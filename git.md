@@ -37,7 +37,14 @@ create a new branch and switch to it:
 
     git checkout -b <newBranchName>
 
+---
+###_remote_###
+---
 
+    git remote -v
+    git remote set-url orgin yourRemoteGitUrl
+    git push <origin> <master>
+    git push --tags
 ---
 ###_.gitignore_###
 ---
