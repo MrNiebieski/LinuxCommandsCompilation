@@ -20,4 +20,6 @@ ls variations:
 
 [linux Related](./linux.md)
 
+[vim Related:](./vim.md)
+
 [c Related: gcc/gdb/makefile](./c.md)
