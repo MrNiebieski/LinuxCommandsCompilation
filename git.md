@@ -16,7 +16,7 @@ show number of lines changed
 ---
 "git way" of renaming files
 
-    giv mv oldname newname
+    git mv oldname newname
     git commit -m "rename oldname to newname"
 ---
 ###_add&commit_###
@@ -53,3 +53,8 @@ create a new branch and switch to it:
     *.[oa]
     #not
     !exception.o
+
+
+---
+###_.gitattributes_###
+---
