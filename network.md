@@ -1,5 +1,7 @@
 #network:#
 
+routing table
+
     route -n
 look for Flags->G
 
@@ -14,9 +16,15 @@ look for Flags->G
     ifconfig
     ifconfig eth0
 
+check MAC etc.
+
 to change:
 
     vim /etc/sysconfig/network-scripts/ifcfg-eth0
+
+    arp -n
+
+to check table, Address vs. MAC
     
 ###ip forword:##
     cat /proc/sys/net/ipv4/ip_forward 
@@ -45,3 +53,18 @@ download:
 download:
 
     scp localfile usr@host:remotefolder/ 
+
+---
+###well-known ports:###
+---
+|port|service|
+|------------|------|
+|20|FTP-data|
+|21|FTP|
+|22|SSH|
+|25|SMTP Mail Server|
+|53|DNS|
+|80|WWW|
+|110|POP3|
+|443|HTTPS|
+|3306|MySQL|
