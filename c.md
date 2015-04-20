@@ -6,6 +6,10 @@ if the makefile does not have default name like makefile or Makefile, it is poss
 
     make -f Makefile2
 
+
+`CXX, CXXFLAGS` is related to c++ compiler `g++`, `CPP, CPPFLAGS`is related to pre processor (not c plus plus).
+
+`CC, CFLAGS` is for c compiler `cc`.
 ---
 ###_gdb_###
 ---
