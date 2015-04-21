@@ -5,3 +5,6 @@
     :sp filename
 
 open `filename` in a split window
+
+
+`%` shortcur for jumping between matching brackets.
