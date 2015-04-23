@@ -85,6 +85,10 @@ Therefore, to delete a line line while the cursor is somewhere in the middle
 
     Ctrl+(u then k)
 
+trick:
+
+although using up/down arrow can browse through recent command, it's more efficient to use `Ctrl+r` then start typing the command, it will do a regex search on recent commands.
+
 ---
 ###_start up setting_###
 ---
