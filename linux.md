@@ -20,6 +20,18 @@ go to home:
 go to last folder:
     cd -
 
+---
+###_find_###
+---
+
+_TODO: this section needs to be expanded_
+
+
+    find /usr -size +10M
+    find /usr -mtime +120
+    find /usr /var \! -atime -90
+
+`-mtime` is for modified, `-atime` is for accessed.
 
 ---
 ###_grep_###
