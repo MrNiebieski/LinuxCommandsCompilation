@@ -29,6 +29,8 @@ quick way of committing single change:
 
     git commit -am "commit description"
 
+note that newly created files cannot be added by `-a`, but can be added by `-A`, and `-Am` does not work.
+
 ---
 ###_branching_###
 ---
