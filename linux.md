@@ -21,12 +21,28 @@ go to last folder:
     cd -
 
 ---
+###_chmod_###
+---
+
+2 ways of using `chmod`
+
+    chmod 777
+    chmod a+r
+
+options for "who it applies to" `u` user, `g` group, `o` others `a` all.
+
+`+` add permissions, `-` subtract permissions, `=` set permissions.
+
+`r` read, `w` write, `x` excute.
+
+---
 ###_find_###
 ---
 
 _TODO: this section needs to be expanded_
 
 
+    find /user -name "*.txt"
     find /usr -size +10M
     find /usr -mtime +120
     find /usr /var \! -atime -90
