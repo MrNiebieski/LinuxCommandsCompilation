@@ -71,6 +71,8 @@ Or
 ---
 ###_system info_###
 ---
+`/proc` is a virtual filesystem that shows information of processes as files.
+
 memory:
 
     free -g
