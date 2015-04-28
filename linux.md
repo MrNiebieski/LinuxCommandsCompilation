@@ -96,6 +96,20 @@ suspend and resume:
     
 
 ---
+###_user management_###
+---
+
+check logged on users:
+
+    w
+
+check if there is a user name XX in this computer
+
+    grep XX /etc/passwd
+
+
+
+---
 ###_keyboard shortcut_###
 ---
 `ESC+.` paste last argument
