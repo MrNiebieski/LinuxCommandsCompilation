@@ -168,3 +168,14 @@ Text:
 
 GUI:
     id:5:initdefault:
+
+
+---
+###_miscellaneous_###
+---
+
+Run the lines in the file as if they were typed to the shell.
+
+    source file
+
+
