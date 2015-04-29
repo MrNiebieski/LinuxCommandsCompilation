@@ -47,6 +47,20 @@ create a new branch and switch to it:
     git remote set-url orgin yourRemoteGitUrl
     git push <origin> <master>
     git push --tags
+
+
+---
+###_setting up_###
+---
+You only need to do this once, unless you started working on a different computer.
+
+    git config --global user.name "You Name"
+    git config --global user.email "you@example.com"
+
+this will create a local file called `.gitconfig` in your home folder.
+
+You can also set other parameters like editor, diff-tools the same way.
+
 ---
 ###_.gitignore_###
 ---
