@@ -178,4 +178,8 @@ Run the lines in the file as if they were typed to the shell.
 
     source file
 
+Run `program` in the background:
+
+    program &
+
 
