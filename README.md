@@ -18,7 +18,7 @@ ls variations:
 
 [LAMP Related](./LAMP.md) Linux Apache MySQL PHP
 
-[linux Related](./linux.md)
+[linux Related](./linux.md) Shell commands and useful linux operations, etc.
 
 [vim Related:](./vim.md)
 
