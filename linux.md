@@ -158,6 +158,10 @@ trick:
 
 although using up/down arrow can browse through recent command, it's more efficient to use `Ctrl+r` then start typing the command, it will do a regex search on recent commands.
 
+`Ctrl+l` clear the terminal.
+
+`Ctrl+d` logout.
+
 ---
 ###_start up setting_###
 ---
