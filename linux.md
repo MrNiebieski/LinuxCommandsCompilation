@@ -108,6 +108,31 @@ check if there is a user name XX in this computer
     grep XX /etc/passwd
 
 
+---
+###_pipes_###
+---
+
+    a > b
+
+Redirect a's standard output to overwrite file b
+
+    a >> b
+
+Redirect a's standard output to append to the file b
+
+    a &> b
+
+Redirect a's error output to overwrite file b
+
+    a < b
+
+Redirect a's standard input to read from the file b
+
+    a | b
+
+Redirect a's standard output to b's standard input
+
+
 
 ---
 ###_keyboard shortcut_###
