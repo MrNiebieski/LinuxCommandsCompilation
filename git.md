@@ -39,6 +39,14 @@ create a new branch and switch to it:
 
     git checkout -b <newBranchName>
 
+
+show local branches:
+
+    git branch
+
+show both local and remote branches
+
+    git branch -a
 ---
 ###_remote_###
 ---
