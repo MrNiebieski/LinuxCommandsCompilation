@@ -187,3 +187,8 @@ Run `program` in the background:
     program &
 
 
+SSH key pair generation
+
+    ssh-keygen
+
+
