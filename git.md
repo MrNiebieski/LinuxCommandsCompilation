@@ -32,6 +32,15 @@ quick way of committing single change:
 note that newly created files cannot be added by `-a`, but can be added by `-A`, and `-Am` does not work.
 
 ---
+###_reset_###
+---
+unstage a file or all (if no FileName sepcified)
+
+    git reset HEAD optionalFileName
+
+
+
+---
 ###_branching_###
 ---
 
@@ -39,6 +48,11 @@ create a new branch and switch to it:
 
     git checkout -b <newBranchName>
 
+Or:
+
+    git checkout -b <newBranchName> <remoteName>/<branch>
+
+    git checkout --track origin/serverfix
 
 show local branches:
 
@@ -68,6 +82,12 @@ You only need to do this once, unless you started working on a different compute
 this will create a local file called `.gitconfig` in your home folder.
 
 You can also set other parameters like editor, diff-tools the same way.
+
+    git mergetool --tool=<tool>
+
+help:
+
+    git mergetool --tool-help
 
 ---
 ###_.gitignore_###
