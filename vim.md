@@ -6,8 +6,14 @@
 
 open `filename` in a split window
 
-
 `%` shortcur for jumping between matching brackets.
+
+`#` and `*` find previous and next identifier.
+
+`(` and `)` move around by _sentences_.
+
+`{` and `}` move around by _paragraph_.
+
 
 `[[`, `]]` move to previous and next function.
 
@@ -18,6 +24,8 @@ open `filename` in a split window
 the difference beteween `0` and `^` is that `^` moves to the first non-white character. 
 
 `Ctrl+w+v` split window vertically.
+
+`number` then `|`: goto colums
 
 convert `<eol>`: `:set fileformat=unix` then `:w`
 
