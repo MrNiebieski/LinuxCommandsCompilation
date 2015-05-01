@@ -12,14 +12,14 @@ ls variations:
     ls -al
     ls -thor
 
-[Network Related](./network.md)
+[linux Related](./linux.md) Shell commands and useful linux operations, etc.
 
 [git Related](./git.md)
 
+[vim Related](./vim.md)
+
+[Network Related](./network.md)
+
 [LAMP Related](./LAMP.md) Linux Apache MySQL PHP
-
-[linux Related](./linux.md) Shell commands and useful linux operations, etc.
-
-[vim Related:](./vim.md)
 
 [c Related: gcc/gdb/makefile](./c.md)
