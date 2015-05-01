@@ -20,6 +20,10 @@ go to home:
 go to last folder:
     cd -
 
+
+cp: copy folder to current location:
+
+    cp -r /home/foler1/ .
 ---
 ###_chmod_###
 ---
@@ -86,6 +90,14 @@ CPU:
 ---
 ###_process management_###
 ---
+show currently active processes, with their pid
+
+    ps
+
+kill a process:
+
+    kill <pid>
+    kill -9 <pid>
 
     top
 
