@@ -22,3 +22,10 @@ the difference beteween `0` and `^` is that `^` moves to the first non-white cha
 convert `<eol>`: `:set fileformat=unix` then `:w`
 
 
+    vimdiff <file1> <file2>
+
+
+toggle whitespace:
+
+    :set list!
+
