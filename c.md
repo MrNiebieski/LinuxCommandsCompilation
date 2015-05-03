@@ -57,6 +57,7 @@ wildcard useage is tha same as bash.
 `CXX, CXXFLAGS` is related to c++ compiler `g++`, `CPP, CPPFLAGS`is related to pre processor (not c plus plus).
 
 `CC, CFLAGS` is for c compiler `cc`.
+
 ---
 ###_gdb_###
 ---
@@ -74,6 +75,6 @@ gdb options
 
 gcc optinos:
 
-    -g extra debugging info
-    -o file output should be named file
-    -c compile without linking 
+1. `-g`: extra debugging info
+2. `-o`: file output should be named file
+3. `-c`: compile without linking 
