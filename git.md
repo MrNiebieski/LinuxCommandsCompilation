@@ -13,6 +13,8 @@ display diff of last 2 commits:
 show number of lines changed
 
     git log --stat
+
+Note that git use `less`-like way to display results.
 ---
 "git way" of renaming files
 
@@ -61,6 +63,16 @@ show local branches:
 show both local and remote branches
 
     git branch -a
+
+---
+###_merge and rebase_###
+---
+
+`rebase` is roughly speaking run "recording" on to a different branch.
+
+`git rebase onto` TODO
+
+
 ---
 ###_remote_###
 ---
@@ -70,6 +82,7 @@ show both local and remote branches
     git push <origin> <master>
     git push --tags
 
+`git fetch` sync remote data to local, `git pull` is roughly speaking `git merge` followed by `git fetch`. 
 
 ---
 ###_setting up_###
