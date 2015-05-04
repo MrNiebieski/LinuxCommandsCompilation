@@ -4,7 +4,13 @@
 
     :sp filename
 
-open `filename` in a split window
+open `filename` in a split window.
+
+Another way is `Ctrl+w+v`  then do:
+
+    :e filename
+
+Note that `<tab>` works under this option.
 
 `%` shortcur for jumping between matching brackets.
 
