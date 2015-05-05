@@ -12,6 +12,8 @@ Another way is `Ctrl+w+v`  then do:
 
 Note that `<tab>` works under this option.
 
+`O` begin a new line above the curosr and enter insert mode. `o` is below the cursor.
+
 `%` shortcur for jumping between matching brackets.
 
 `#` and `*` find previous and next identifier.
@@ -45,3 +47,25 @@ toggle whitespace:
 
     :set list!
 
+
+replace single character:
+
+    r<c>
+
+---
+###_mark_###
+---
+
+quick start:
+
+set mark:
+
+    m<a-zA-Z>
+
+goto mark:
+
+    `<a-z>
+
+show all marks:
+
+    :mark
