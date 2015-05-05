@@ -54,11 +54,22 @@ Or:
 
     git checkout -b <newBranchName> <remoteName>/<branch>
 
+Checkout a remote branch (create a branch that tracks remote)
+
     git checkout --track origin/serverfix
+    git checkout --track <localname> origin/serverfix
 
 show local branches:
 
     git branch
+
+check which branches are tracking what:
+
+    git branch -vv
+
+show only remote branch:
+
+    git branch -r
 
 show both local and remote branches
 
