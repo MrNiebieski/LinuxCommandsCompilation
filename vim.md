@@ -29,6 +29,8 @@ Note that `<tab>` works under this option.
 
 the difference beteween `0` and `^` is that `^` moves to the first non-white character. 
 
+`$` moves to the last character.
+
 `Ctrl+w+v` split window vertically.
 
 `number` then `|`: goto colums
