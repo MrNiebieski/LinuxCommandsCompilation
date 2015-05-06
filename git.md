@@ -95,6 +95,13 @@ show both local and remote branches
 
 `git fetch` sync remote data to local, `git pull` is roughly speaking `git merge` followed by `git fetch`. 
 
+do `git branch -a` first, then
+
+    git diff <remote/origin/master> <localBranch> <filename>
+    git diff <remote/origin/master>..<localBranch> <filename>
+
+the two dots `..` are optional.
+
 ---
 ###_setting up_###
 ---
