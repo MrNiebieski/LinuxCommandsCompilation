@@ -53,9 +53,10 @@ _TODO: this section needs to be expanded_
     find /user -name "*.txt"
     find /usr -size +10M
     find /usr -mtime +120
+    find *.*  -mtime -0.05
     find /usr /var \! -atime -90
 
-`-mtime` is for modified, `-atime` is for accessed.
+`-mtime` is for modified, `-atime` is for accessed, unit is days.
 
 ---
 ###_grep_###
