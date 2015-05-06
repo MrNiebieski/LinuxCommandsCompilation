@@ -22,4 +22,4 @@ ls variations:
 
 [LAMP Related](./LAMP.md) Linux Apache MySQL PHP
 
-[c Related: gcc/gdb/makefile](./c.md)
+[c Related](./c.md) makefile/gcc/gdb/valgrind
