@@ -77,4 +77,20 @@ gcc optinos:
 
 1. `-g`: extra debugging info
 2. `-o`: file output should be named file
-3. `-c`: compile without linking 
+3. `-c`: compile without linking
+
+
+---
+###_valgrind_###
+--- 
+
+track errors like:
+
+1. uninitialized variable
+2. memory leak
+3. buffer overflow
+
+does not detect:
+
+1. static memory errors
+2. if the error does not occur during runtime 
