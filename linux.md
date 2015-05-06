@@ -15,15 +15,19 @@ ls variations:
 cd variations:
 
 go to home:
+
     cd ~
+    cd [space]
 
 go to last folder:
     cd -
 
-
 cp: copy folder to current location:
 
     cp -r /home/foler1/ .
+
+NOTE: `cp` and `mv` will overwrite if target exists.
+
 ---
 ###_chmod_###
 ---
