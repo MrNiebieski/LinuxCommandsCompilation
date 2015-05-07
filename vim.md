@@ -12,6 +12,19 @@ Another way is `Ctrl+w+v`  then do:
 
 Note that `<tab>` works under this option.
 
+tab expolorer:
+
+    :Te
+
+`gt`, `gT` to move between tabs.
+
+similarly ther are:
+
+    :He
+    :Ve
+    :E
+
+
 `O` begin a new line above the curosr and enter insert mode. `o` is below the cursor.
 
 `%` shortcur for jumping between matching brackets.
@@ -27,7 +40,9 @@ Note that `<tab>` works under this option.
 
 `>>`,`<<` are used to indent and unindent line.
 
-`yy` to copy, and `dd` to delete. 
+`==` auto indentation.
+
+`yy` or `Y` to copy, and `dd` to delete. 
 
 the difference beteween `0` and `^` is that `^` moves to the first non-white character. 
 
@@ -69,3 +84,11 @@ goto mark:
 show all marks:
 
     :mark
+
+---
+###_find_###
+---
+
+count how many matches:
+
+    :%s/pattern//n
