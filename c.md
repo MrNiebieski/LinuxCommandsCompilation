@@ -25,6 +25,8 @@ wildcard useage is tha same as bash.
 
 `+=` append
 
+`$(VARIABLE)` and `${VARIABLE}` are equivalent in referring to variables.
+
 `$$` for environmental variable
 
     test:
@@ -53,21 +55,13 @@ wildcard useage is tha same as bash.
 ###_makefile in C compiling_###
 ---
 
-
 `CXX, CXXFLAGS` is related to c++ compiler `g++`, `CPP, CPPFLAGS`is related to pre processor (not c plus plus).
 
 `CC, CFLAGS` is for c compiler `cc`.
 
----
-###_gdb_###
----
-gdb options
+`-I` in `CFLAGS` is to set to include non-standard directories.
 
-|command line|effect|
-|------------|------|
-|r|run|
-|l|list|
-
+`LDFLAGS` if for the linker, `-l` is for specific library files and `-L` is the library search path.
 
 ---
 ###_gcc_###
@@ -79,6 +73,16 @@ gcc optinos:
 2. `-o`: file output should be named file
 3. `-c`: compile without linking
 
+
+---
+###_gdb_###
+---
+gdb options
+
+|command line|effect|
+|------------|------|
+|r|run|
+|l|list|
 
 ---
 ###_valgrind_###
@@ -94,3 +98,14 @@ does not detect:
 
 1. static memory errors
 2. if the error does not occur during runtime 
+
+
+---
+###_ctags_###
+---
+
+to setup:
+
+    ctags -R
+
+`ctrl+]` and `ctrl+t` to go into a function and go back.
