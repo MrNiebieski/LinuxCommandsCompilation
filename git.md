@@ -102,6 +102,22 @@ do `git branch -a` first, then
 
 the two dots `..` are optional.
 
+
+---
+###_creating a remote repo_###
+---
+
+To create a remote repository.
+
+(assume you have already set up a user with name `git` for this purpose.)
+
+    sudo git init --bare sample.git
+    sudo chown -R git:git sample.git
+
+    git clone git@localhost:/RepoDir/sample.git/
+
+the last `/` is optional.
+
 ---
 ###_setting up_###
 ---
