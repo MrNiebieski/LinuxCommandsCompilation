@@ -119,6 +119,17 @@ To create a remote repository.
 the last `/` is optional.
 
 ---
+###_stash_###
+---
+
+to stash, list, and restore to stashed stage (apply):
+
+    git stash
+    git stash list
+    git stash apply
+    git stash@{2}
+
+---
 ###_setting up_###
 ---
 You only need to do this once, unless you started working on a different computer.
