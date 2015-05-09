@@ -127,7 +127,8 @@ to stash, list, and restore to stashed stage (apply):
     git stash
     git stash list
     git stash apply
-    git stash@{2}
+    git stash apply stash@{2}
+    git stash drop stash@{0}
 
 ---
 ###_setting up_###
