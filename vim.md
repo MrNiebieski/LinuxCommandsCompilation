@@ -32,6 +32,7 @@ similarly ther are:
 
 `z` then `enter`, move current line to the top of the screen.
 
+`H` moves to the first line on the screen. 
 
 `O` begin a new line above the curosr and enter insert mode. `o` is below the cursor.
 
@@ -58,7 +59,9 @@ the difference beteween `0` and `^` is that `^` moves to the first non-white cha
 
 `Ctrl+w+v` split window vertically.
 
-`number` then `|`: goto colums
+`number` then `|`: goto colums.
+
+`f<c>` moves _within_ a line to the next `c` character.
 
 convert `<eol>`: `:set fileformat=unix` then `:w`
 
@@ -75,6 +78,8 @@ replace single character:
 
     r<c>
 
+`:cope` after `:make` to navigate around error and warnings.
+`:cn`,`:cp` to move around.
 ---
 ###_mark_###
 ---
