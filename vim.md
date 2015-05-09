@@ -24,6 +24,14 @@ similarly ther are:
     :Ve
     :E
 
+`ctrl+shift+g` show filename and line.
+
+`ctrl+shift+u`, `ctrl+shift+d` moves down and up by half a screen.
+
+`ctrl+shift+f`, `ctrl+shift+b` moves down and up by one screen.
+
+`z` then `enter`, move current line to the top of the screen.
+
 
 `O` begin a new line above the curosr and enter insert mode. `o` is below the cursor.
 
@@ -80,6 +88,10 @@ set mark:
 goto mark:
 
     `<a-z>
+
+quick jump between marks:
+
+    ``
 
 show all marks:
 
