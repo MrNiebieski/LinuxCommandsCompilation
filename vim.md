@@ -102,6 +102,10 @@ quick jump between marks:
 
     ``
 
+jump to last modified line:
+
+    `.
+
 show all marks:
 
     :mark
