@@ -84,6 +84,7 @@ delete a single character:
 
 `:cope` after `:make` to navigate around error and warnings.
 `:cn`,`:cp` to move around.
+
 ---
 ###_mark_###
 ---
