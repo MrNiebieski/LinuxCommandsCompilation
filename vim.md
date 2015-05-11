@@ -74,9 +74,13 @@ toggle whitespace:
     :set list!
 
 
-replace single character:
+replace a single character:
 
     r<c>
+
+delete a single character:
+
+    x
 
 `:cope` after `:make` to navigate around error and warnings.
 `:cn`,`:cp` to move around.
