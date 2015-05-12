@@ -190,6 +190,14 @@ Text:
 GUI:
     id:5:initdefault:
 
+---
+###_shutting down_###
+---
+
+    sudo shutdown -h now
+    sudo halt
+    sudo halt -p
+    sudo poweroff
 
 ---
 ###_miscellaneous_###
@@ -202,6 +210,10 @@ Run the lines in the file as if they were typed to the shell.
 Run `program` in the background:
 
     program &
+
+to run a couple of commands in sudo:
+
+    sudo bash
 
 
 SSH key pair generation
