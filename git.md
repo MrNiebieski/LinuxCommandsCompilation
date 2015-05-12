@@ -148,6 +148,10 @@ help:
 
     git mergetool --tool-help
 
+check version:
+
+    git --version
+
 ---
 ###_.gitignore_###
 ---
