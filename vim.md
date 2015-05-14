@@ -27,13 +27,19 @@ similarly ther are:
 
 `ctrl+shift+g` show filename and line.
 
+---
+###_moving around_###
+---
+
 `ctrl+shift+u`, `ctrl+shift+d` moves down and up by half a screen.
 
 `ctrl+shift+f`, `ctrl+shift+b` moves down and up by one screen.
 
 `z` then `enter`, move current line to the top of the screen.
 
-`H` moves to the first line on the screen. 
+`H` moves to the first line on the screen. `M` to the middle and `L` to the last line.
+
+`G` to the last line of this file, `gg` to the first line of this file.
 
 `O` begin a new line above the curosr and enter insert mode. `o` is below the cursor.
 
@@ -48,11 +54,19 @@ similarly ther are:
 
 `[[`, `]]` move to previous and next function.
 
+
+`yy` or `Y` to copy, and `dd` to delete. 
+
+`D` delete to the end of this line.
+
+---
+###_change and modify_###
+---
+
 `>>`,`<<` are used to indent and unindent line.
 
 `==` auto indentation.
 
-`yy` or `Y` to copy, and `dd` to delete. 
 
 the difference beteween `0` and `^` is that `^` moves to the first non-white character. 
 
