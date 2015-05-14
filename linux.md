@@ -124,6 +124,9 @@ check if there is a user name XX in this computer
 
     grep XX /etc/passwd
 
+list user with `awk`:
+
+    awk -F: '{print $1,$3,$6}' /etc/passwd
 
 ---
 ###_pipes_###
