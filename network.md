@@ -68,3 +68,12 @@ download:
 |110|POP3|
 |443|HTTPS|
 |3306|MySQL|
+
+
+---
+###curl###
+---
+
+curl post:
+
+    curl --data "param1=value1&param2=value2" https://example.com/resource.cgi
