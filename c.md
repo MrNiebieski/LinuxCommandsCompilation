@@ -109,3 +109,15 @@ to setup:
     ctags -R
 
 `ctrl+]` and `ctrl+t` to go into a function and go back.
+
+---
+###_miscellaneous_###
+---
+
+`awk` trick statistics:
+
+    ls -l  *.cpp *.c *.h | awk '{sum+=$5} END {print sum}'
+
+or do this:
+
+    wc -l *.cpp *.h
