@@ -106,6 +106,24 @@ gcc optinos:
 2. `-o`: file output should be named file
 3. `-c`: compile without linking
 
+disable dynamic-linked library.
+
+    -static
+
+opposite: use dynamic library as much as possible.
+
+    -share
+
+example:
+
+    gcc file1.c fil2.c -o myprog
+
+this is the same as:
+
+    gcc -c file1.c
+    gcc -c file2.c
+    gcc file1.o file2.o -o myprog
+
 
 ---
 ###_gdb_###
