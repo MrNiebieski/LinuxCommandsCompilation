@@ -25,15 +25,15 @@ similarly ther are:
     :Ve
     :E
 
-`ctrl+shift+g` show filename and line.
+`ctrl+g` show filename and line.
 
 ---
 ###_moving around_###
 ---
 
-`ctrl+shift+u`, `ctrl+shift+d` moves down and up by half a screen.
+`ctrl+u`, `ctrl+d` moves down and up by half a screen.
 
-`ctrl+shift+f`, `ctrl+shift+b` moves down and up by one screen.
+`ctrl+f`, `ctrl+b` moves down and up by one screen.
 
 `z` then `enter`, move current line to the top of the screen.
 
