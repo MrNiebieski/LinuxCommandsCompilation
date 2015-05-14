@@ -25,12 +25,45 @@ wildcard useage is tha same as bash.
 
 `+=` append
 
+`:=` expansion is done immediately, can be used in the begining of the file, followed by empty. All the following will be appended by `+=`.
+
+
 `$(VARIABLE)` and `${VARIABLE}` are equivalent in referring to variables.
 
 `$$` for environmental variable
 
     test:
         @echo $$HOME
+
+Example for checking system:
+
+    OSUPPER = $(shell uname -s 2>/dev/null | tr "[:lower:]" "[:upper:]")
+    OSLOWER = $(shell uname -s 2>/dev/null | tr "[:upper:]" "[:lower:]")
+
+    OS_SIZE    = $(shell uname -m | sed -e "s/x86_64/64/" -e "s/armv7l/32/" -e "s/aarch64/64/")
+    OS_ARCH    = $(shell uname -m)
+    ARCH_FLAGS =
+
+    DARWIN = $(strip $(findstring DARWIN, $(OSUPPER)))
+    ifneq ($(DARWIN),)
+        XCODE_GE_5 = $(shell expr `xcodebuild -version | grep -i xcode | awk '{print $$2}' | cut -d'.' -f1` \>= 5)
+    endif
+
+    # Take command line flags that override any of these settings
+    ifeq ($(x86_64),1)
+        OS_SIZE = 64
+        OS_ARCH = x86_64
+    endif
+    ifeq ($(ARMv7),1)
+        OS_SIZE    = 32
+        OS_ARCH    = armv7l
+        ARCH_FLAGS = -target-cpu-arch ARM
+    endif
+    ifeq ($(aarch64),1)
+        OS_SIZE    = 64
+        OS_ARCH    = aarch64
+        ARCH_FLAGS = -target-cpu-arch ARM
+    endif    
 
 *Automatic Vairables*
 

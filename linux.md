@@ -91,6 +91,10 @@ CPU:
 
     cat /proc/cpuinfo
 
+system:
+
+    uname -a
+    arch
 
 ---
 ###_process management_###
