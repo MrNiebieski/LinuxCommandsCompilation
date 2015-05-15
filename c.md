@@ -96,6 +96,17 @@ Example for checking system:
 
 `LDFLAGS` if for the linker, `-l` is for specific library files and `-L` is the library search path.
 
+
+---
+###_use cmake_###
+---
+
+typical usage:
+
+    cmake .
+    make
+
+
 ---
 ###_gcc_###
 ---
@@ -104,7 +115,8 @@ gcc optinos:
 
 1. `-g`: extra debugging info
 2. `-o`: file output should be named file
-3. `-c`: compile without linking
+3. `-c`: compile without linking (output `.o` file)
+4. `-O`, `-O2` turn on optimizations
 
 disable dynamic-linked library.
 
