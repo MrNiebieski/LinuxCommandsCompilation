@@ -207,6 +207,15 @@ GUI:
     sudo poweroff
 
 ---
+###_pager_###
+---
+
+show certain lines of a file
+
+    sed -n '10, 15p' filename
+
+
+---
 ###_miscellaneous_###
 ---
 
