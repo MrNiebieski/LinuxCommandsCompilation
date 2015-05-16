@@ -28,6 +28,20 @@ cp: copy folder to current location:
 
 NOTE: `cp` and `mv` will overwrite if target exists.
 
+check Disk Usage:
+
+    du
+    du -h
+    du -ah
+    du -sh
+
+`-h` for human-readable `-a` for all files.
+
+do not include size of subdirectories.
+
+    du -S
+
+
 ---
 ###_chmod_###
 ---
@@ -185,6 +199,8 @@ although using up/down arrow can browse through recent command, it's more effici
 `Ctrl+l` clear the terminal.
 
 `Ctrl+d` logout.
+
+`PgUp` and `PgDn` in a terminal will scroll through commands, to actually scroll through terminal, use `shift+PgUp`, `shift+PgDown`. 
 
 ---
 ###_start up setting_###
