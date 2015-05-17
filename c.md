@@ -140,12 +140,33 @@ this is the same as:
 ---
 ###_gdb_###
 ---
-gdb options
+
+gdb need to be compiled by `gcc` with `-g` option.
+
+gdb options:
 
 |command line|effect|
 |------------|------|
 |r|run|
 |l|list|
+|q|quit|
+
+print variable `a`:
+
+    p <a>
+
+add breakpoint at line 5:
+
+    break <5>
+
+add breakpoint at `function`:
+
+    break <function>
+
+show all breakpoints:
+
+    info break
+
 
 ---
 ###_valgrind_###
