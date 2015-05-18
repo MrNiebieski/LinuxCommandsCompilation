@@ -110,6 +110,15 @@ system:
     uname -a
     arch
 
+mount & unmount
+
+    sudo mkdir /mnt/usb
+    sudo mount /dev/sda /mnt/usb
+    df -h
+    udisk --unmount /dev/sda
+    udisk --eject /dev/sda
+
+
 ---
 ###_process management_###
 ---
