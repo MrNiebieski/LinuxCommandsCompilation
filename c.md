@@ -84,6 +84,16 @@ Example for checking system:
 5. `$?`: dependencies that is newer than target
 
 
+example:
+
+    %.o: %.cpp
+        $(CXX) $(CPPFLAGS) $(LDFLAGS) -o $@ -c $< $(LIBS)
+
+or:
+
+        $(CXX) $(CPPFLAGS) $(LDFLAGS) -o $@ $^ $(LIBS)
+
+
 ---
 ###_makefile in C compiling_###
 ---
@@ -205,3 +215,12 @@ to setup:
 or do this:
 
     wc -l *.cpp *.h
+
+---
+###_miscellaneous_###
+---
+
+to inspect object file: (to be elaborated later)
+
+    ldd
+    nm
