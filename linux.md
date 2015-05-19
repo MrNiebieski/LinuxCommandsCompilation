@@ -261,4 +261,7 @@ SSH key pair generation
 
     ssh-keygen
 
+show file name including full path name:
+
+    `readlink -f <file.txt>`
 
