@@ -133,3 +133,16 @@ show all marks:
 count how many matches:
 
     :%s/pattern//n
+
+
+---
+###_miscellaneous_###
+---
+
+this can be used in `#include` files etc.
+
+on the file name, press `gf` to "go to file", `Ctrl+o` to go back to the previous file. `Ctrl+6` also works.
+
+Unhighlight serach
+
+    :noh
