@@ -217,6 +217,13 @@ or do this:
     wc -l *.cpp *.h
 
 ---
+###_C/C++ programming_###
+---
+
+    whereis stdio.h
+    whereis cuda.h
+
+---
 ###_miscellaneous_###
 ---
 
