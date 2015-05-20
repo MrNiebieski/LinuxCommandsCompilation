@@ -17,7 +17,7 @@ cd variations:
 go to home:
 
     cd ~
-    cd [space]
+    cd
 
 go to last folder:
     cd -
@@ -117,7 +117,12 @@ mount & unmount
     df -h
     udisk --unmount /dev/sda
     udisk --eject /dev/sda
+    mount|column -t
 
+show disk partition:
+
+    sudo fdisk -l
+    cat /proc/partitions
 
 ---
 ###_process management_###
@@ -265,3 +270,10 @@ show file name including full path name:
 
     `readlink -f <file.txt>`
 
+show 3 months' calendar
+
+    cal -3
+
+easiest way to create an empty file:
+
+    >tmp.txt
