@@ -177,6 +177,9 @@ show all breakpoints:
 
     info break
 
+show assembly code:
+
+    disas <functionName>
 
 ---
 ###_valgrind_###
