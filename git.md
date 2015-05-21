@@ -15,7 +15,9 @@ show number of lines changed
     git log --stat
 
 Note that git use `less`-like way to display results.
+
 ---
+
 "git way" of renaming files
 
     git mv oldname newname
