@@ -59,6 +59,16 @@ similarly ther are:
 
 `D` delete to the end of this line.
 
+
+`192.168.1.1` is a single `WORD`.
+
+`192.168.1.1` are 7 `word`s.
+
+`W`,`B` moves around in terms of `WORDS`
+
+`w`,`b` moves around in terms of `words`
+
+
 ---
 ###_change and modify_###
 ---
