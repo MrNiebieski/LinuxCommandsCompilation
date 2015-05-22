@@ -150,6 +150,23 @@ this is the same as:
     gcc -c file2.c
     gcc file1.o file2.o -o myprog
 
+show search path:
+
+    gcc -v -E main.c > /dev/null
+    gcc -H main.c
+
+output this:
+
+    COLLECT_GCC_OPTIONS='-v' '-E' '-mtune=generic'
+     /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/cc1 -E -quiet -v main.c -mtune=generic
+    ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include-fixed"
+    ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../x86_64-redhat-linux/include"
+    #include "..." search starts here:
+    #include <...> search starts here:
+     /usr/local/include
+     /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include
+     /usr/include
+    End of search list.
 
 ---
 ###_gdb_###
@@ -200,6 +217,12 @@ does not detect:
 1. static memory errors
 2. if the error does not occur during runtime 
 
+
+---
+###_gprof_###
+---
+
+compile with `-pg` and run `gprof`, a `gmon.out` file will be generated.
 
 ---
 ###_ctags_###
