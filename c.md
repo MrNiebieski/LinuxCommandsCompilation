@@ -93,6 +93,10 @@ or:
 
         $(CXX) $(CPPFLAGS) $(LDFLAGS) -o $@ $^ $(LIBS)
 
+search for `.h` file:
+
+    find /usr/ -name "*.h" |grep host
+
 
 ---
 ###_makefile in C compiling_###
