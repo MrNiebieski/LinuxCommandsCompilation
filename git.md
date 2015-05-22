@@ -42,6 +42,11 @@ unstage a file or all (if no FileName sepcified)
 
     git reset HEAD optionalFileName
 
+---
+###_git diff_###
+---
+
+    git diff --name-only
 
 
 ---
