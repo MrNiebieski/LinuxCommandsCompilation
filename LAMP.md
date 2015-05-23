@@ -15,3 +15,24 @@ enter password after prompt.
 
     show databases;
 
+    mysqldump -u DBUSERNAME -pDBPASSWORD DBNAME > /PATH/backup.sql
+
+
+Or:
+create `~/.my.cnf` file with the following content:
+
+    [client]
+    #comment
+    #port=3306
+    user = DBUSERNAME
+    password = "DBPASSWORD"
+    host = localhost
+
+change mode:
+
+    chmod 0600 ~/.my.cnf
+
+Then use:
+
+    mysqldump DBNAME > /PATH/backup.sql
+
