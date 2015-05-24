@@ -37,9 +37,11 @@ check Disk Usage:
 
 `-h` for human-readable `-a` for all files.
 
-do not include size of subdirectories.
+`-S` qdo not include size of subdirectories.
 
-    du -S
+produce short result
+
+    du -sh --time
 
 
 ---
@@ -56,6 +58,8 @@ options for "who it applies to" `u` user, `g` group, `o` others `a` all.
 `+` add permissions, `-` subtract permissions, `=` set permissions.
 
 `r` read, `w` write, `x` excute.
+
+for example `600` is a very conservative mode. `777` is very loose.
 
 ---
 ###_find_###
