@@ -24,6 +24,7 @@ similarly ther are:
     :He
     :Ve
     :E
+    :vsp
 
 `ctrl+g` show filename and line.
 
@@ -110,6 +111,21 @@ delete a single character:
 `:cope` after `:make` to navigate around error and warnings.
 `:cn`,`:cp` to move around.
 
+to view changes:
+
+    :changes
+
+`g;` got to older change, `g,` goto newer change. Will not reset when exit.
+
+
+###_registers_###
+
+`+` or `*`: clipboard. `"` last del/copy, `%` filename.
+
+example:
+
+`"+p` paste system clipboard. (can be shared with bash shell.)
+
 ---
 ###_mark_###
 ---
@@ -156,3 +172,9 @@ on the file name, press `gf` to "go to file", `Ctrl+o` to go back to the previou
 Unhighlight serach
 
     :noh
+
+
+on top of a number `ctrl+a` to increase it, `ctrl+x` to decrease it.
+
+
+when in `insert mode`, `ctrl+c` will exit to normal mode, it will not kill vim.
