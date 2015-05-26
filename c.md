@@ -150,6 +150,12 @@ this is the same as:
     gcc -c file2.c
     gcc file1.o file2.o -o myprog
 
+`-D` define macro:
+
+    gcc -DDEBUG
+
+`-U` undefine macro.
+
 show search path:
 
     gcc -v -E main.c > /dev/null
@@ -232,7 +238,7 @@ to setup:
 
     ctags -R
 
-`ctrl+]` and `ctrl+t` to go into a function and go back.
+`ctrl+]` and `ctrl+t` (`ctrl+o`) to go into a function and go back.
 
 ---
 ###_miscellaneous_###
