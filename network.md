@@ -77,3 +77,7 @@ download:
 curl post:
 
     curl --data "param1=value1&param2=value2" https://example.com/resource.cgi
+
+curl get:
+
+    curl https://example.com/resource.cgi?param1=value1&param2=value2
