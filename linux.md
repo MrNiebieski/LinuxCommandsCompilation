@@ -231,6 +231,10 @@ Text:
 GUI:
     id:5:initdefault:
 
+to check runlevel:
+
+    who -r
+
 ---
 ###_shutting down_###
 ---
