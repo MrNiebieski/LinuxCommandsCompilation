@@ -172,3 +172,15 @@ check version:
 ---
 ###_.gitattributes_###
 ---
+
+
+---
+###_diff_###
+---
+
+    diff -Naur old_file new_file > diff_file
+    patch < diff_file
+
+output:
+
+    patching file old_file
