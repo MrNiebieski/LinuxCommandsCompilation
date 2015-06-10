@@ -12,6 +12,9 @@ this is some advance topic: still working on it.
     sed '$ i\
     addToLastLine' input.txt
 
+
+    sed -f commands.txt input.txt
+
 use sed like grep:
 
     git log -3|sed -n '/Date/p'
@@ -23,6 +26,19 @@ this is a more interesting example:
     git log -3|sed -n '/Date/{n;n;p}'
 
 print two lines after the line that matches 'Date'.
+
+in sed, comma `,` is a range operator.
+
+can be used together with regular expression match
+
+    sed '/Storm/,/Fellowship/d' books.txt
+
+`w` write command:
+
+    sed -n -e '/Martin/ w Martin.txt' -e '/Paulo/ w Paulo.txt' -e '/Tolkien/ w 
+    Tolkien.txt' books.txt
+
+`c` change; `i`, insert;
 
 ###awk###
 
@@ -36,8 +52,11 @@ example:
 |RS|Record Separator (lines)|
 |OFS|Output Field Separator|
 |ORS|Output Record Separator|
+|FILENAME|file name|
 
-awk -f my_script.awk filename
+    awk -f my_script.awk filename
+
+    awk 'length($0) > 18' marks.txt
 
 ###grep###
 
@@ -47,3 +66,8 @@ grep version of the previous example:
 
 
 `-A` afterward context, `-B` previous context.
+
+
+`--no-filename` is an option.
+
+`-c` takes counts

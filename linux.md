@@ -43,6 +43,11 @@ produce short result
 
     du -sh --time
 
+advanced `mkdir`
+
+    mkdirhier project/{lib/ext,bin,src,doc/{html,info,pdf},demo/stat/a}
+    cd tmp/a/b/c || mkdir -p tmp/a/b/c && tar xvf -C tmp/a/b/c ~/archive.tar
+
 
 ---
 ###_chmod_###
@@ -67,6 +72,7 @@ for example `600` is a very conservative mode. `777` is very loose.
 
 _TODO: this section needs to be expanded_
 
+    find some-file-criteria some-file-path
 
     find /user -name "*.txt"
     find /usr -size +10M
@@ -75,6 +81,16 @@ _TODO: this section needs to be expanded_
     find /usr /var \! -atime -90
 
 `-mtime` is for modified, `-atime` is for accessed, unit is days.
+
+to use with `xargs`
+
+    find . -name "*.c" | xargs rm -rf
+
+However, if there is `space` in filename.
+
+    find . -name "*.c" -print0 | xargs -0 rm -rf
+
+
 
 ---
 ###_grep_###
