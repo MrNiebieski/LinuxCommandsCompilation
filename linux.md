@@ -108,6 +108,7 @@ memory:
 CPU:
 
     cat /proc/cpuinfo
+    lscpu
 
 system:
 
@@ -285,3 +286,7 @@ show 3 months' calendar
 easiest way to create an empty file:
 
     >tmp.txt
+
+`-e` after echo is to enable backlash `\`
+
+    echo -e "1d\n2d\n5d" > commands.txt
