@@ -25,7 +25,11 @@ to change:
     arp -n
 
 to check table, Address vs. MAC
-    
+
+show known hosts:
+
+    cat /etc/hosts
+
 ###ip forword:##
     cat /proc/sys/net/ipv4/ip_forward 
 check if ip_forwarding is enabled, to chnage:
@@ -62,13 +66,18 @@ download:
 |20|FTP-data|
 |21|FTP|
 |22|SSH|
+|22|telnet|
 |25|SMTP Mail Server|
 |53|DNS|
 |80|WWW|
 |110|POP3|
 |443|HTTPS|
 |3306|MySQL|
+|6000|Xserver|
 
+well-known ports are typically smaller than 1024
+
+all ports can be 1024 to 65535.
 
 ---
 ###curl###
