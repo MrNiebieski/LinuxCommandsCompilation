@@ -144,6 +144,7 @@ You only need to do this once, unless you started working on a different compute
 
     git config --global user.name "You Name"
     git config --global user.email "you@example.com"
+    git config --global color.ui auto
 
 this will create a local file called `.gitconfig` in your home folder.
 
