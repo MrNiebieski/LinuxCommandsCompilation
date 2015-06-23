@@ -30,6 +30,11 @@ show known hosts:
 
     cat /etc/hosts
 
+ask DNS about ip
+
+    host google.com
+    host google.com 8.8.8.8
+
 ###ip forword:##
     cat /proc/sys/net/ipv4/ip_forward 
 check if ip_forwarding is enabled, to chnage:
@@ -90,3 +95,10 @@ curl post:
 curl get:
 
     curl https://example.com/resource.cgi?param1=value1&param2=value2
+
+`-I` is to get header
+
+`-v` is verbose on `curl` side
+
+
+`302 Found`: redirect
