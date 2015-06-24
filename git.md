@@ -182,6 +182,14 @@ check version:
     diff -Naur old_file new_file > diff_file
     patch < diff_file
 
+`-u`, output (default 3) lines of unified context
+
+`-a`, treat all files as text
+
+`-N` treat absent files as empty
+
+
+
 output:
 
     patching file old_file
