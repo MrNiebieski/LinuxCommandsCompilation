@@ -36,3 +36,11 @@ Then use:
 
     mysqldump DBNAME > /PATH/backup.sql
 
+
+View all users:
+
+    select User from mysql.user;
+
+Drop user:
+
+    drop user UserToRemove;
