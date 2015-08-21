@@ -22,9 +22,19 @@ go to home:
 go to last folder:
     cd -
 
+sometimes, as a sudoer but not root, you don't have access to certain folders and sudo cd won't work, so:
+
+    sudo -i
+    cd /access_limited/folder
+
 cp: copy folder to current location:
 
     cp -r /home/foler1/ .
+
+copy the contents of a folder under a different name:
+
+    cp -a /source/. /dest/
+
 
 NOTE: `cp` and `mv` will overwrite if target exists.
 
