@@ -15,7 +15,9 @@ enter password after prompt.
 
     show databases;
 
-    mysqldump -u DBUSERNAME -pDBPASSWORD DBNAME > /PATH/backup.sql
+    mysqldump -u DBUSERNAME -p DBPASSWORD DBNAME > /PATH/backup.sql
+
+    mysqldump > backup.sql --all-databases -u DBUSERNAME -p
 
 
 Or:
