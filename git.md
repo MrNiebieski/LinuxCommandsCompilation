@@ -42,13 +42,17 @@ unstage a file or all (if no FileName sepcified)
 
     git reset HEAD optionalFileName
 
+in case something has already been commited, (like a revert or merge)
+
+    git reset --hard HEAD~1
+
 ---
 ###_git diff_###
 ---
 
     git diff --name-only
 
-
+    git diff master your-branch --name-only
 ---
 ###_branching_###
 ---
@@ -99,6 +103,10 @@ show both local and remote branches
     git remote set-url orgin yourRemoteGitUrl
     git push <origin> <master>
     git push --tags
+
+push to remote and track it too:
+
+    git push -u orign <yourBranch>
 
 `git fetch` sync remote data to local, `git pull` is roughly speaking `git merge` followed by `git fetch`. 
 
