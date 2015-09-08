@@ -316,3 +316,7 @@ easiest way to create an empty file:
 `-e` after echo is to enable backlash `\`
 
     echo -e "1d\n2d\n5d" > commands.txt
+
+check Centos version:
+
+    cat /etc/redhat-release
