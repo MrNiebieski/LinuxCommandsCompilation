@@ -53,6 +53,10 @@ in case something has already been commited, (like a revert or merge)
     git diff --name-only
 
     git diff master your-branch --name-only
+
+    git diff HEAD^ HEAD
+    git diff HEAD~ HEAD
+
 ---
 ###_branching_###
 ---
