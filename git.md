@@ -108,6 +108,9 @@ show both local and remote branches
     git push <origin> <master>
     git push --tags
 
+    git remote add newRemote yourRemoteGitUrl
+    git remote update
+
 push to remote and track it too:
 
     git push -u orign <yourBranch>
