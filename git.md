@@ -46,6 +46,10 @@ in case something has already been commited, (like a revert or merge)
 
     git reset --hard HEAD~1
 
+if reset cannot reset new files, use the following:
+
+    git clean -fd
+
 ---
 ###_git diff_###
 ---
