@@ -44,7 +44,7 @@ similarly ther are:
 
 `O` begin a new line above the curosr and enter insert mode. `o` is below the cursor.
 
-`%` shortcur for jumping between matching brackets.
+`%` shortcut for jumping between matching brackets.
 
 `#` and `*` find previous and next identifier.
 
@@ -73,6 +73,8 @@ similarly ther are:
 ---
 ###_change and modify_###
 ---
+
+`u` undo change
 
 `>>`,`<<` are used to indent and unindent line.
 
