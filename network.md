@@ -102,3 +102,14 @@ curl get:
 
 
 `302 Found`: redirect
+
+---
+###openssl###
+---
+
+encryption:
+
+    echo -n "12345678"|openssl md5
+    echo -n "12345678"|openssl sha1
+
+`-n` is important to suppress new-line
