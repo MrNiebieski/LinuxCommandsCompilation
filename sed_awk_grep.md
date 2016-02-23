@@ -70,4 +70,6 @@ grep version of the previous example:
 
 `--no-filename` is an option.
 
-`-c` takes counts
+`-c` takes counts.
+
+`-l` filename only.
