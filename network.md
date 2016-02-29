@@ -103,6 +103,27 @@ curl get:
 
 `302 Found`: redirect
 
+
+---
+###nc###
+---
+
+
+    nc -z localhost 9999
+
+check port
+
+    echo -n "123" |nc localhost 999
+
+send to port
+
+---
+###check what is using 80 port###
+---
+
+    netstat -tulpn|grep :80
+
+
 ---
 ###openssl###
 ---
