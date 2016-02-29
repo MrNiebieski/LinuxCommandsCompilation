@@ -46,3 +46,12 @@ View all users:
 Drop user:
 
     drop user UserToRemove;
+
+
+start:
+
+    service mysqld start
+
+alternatively:
+
+    /etc/init.d/mysqld start
