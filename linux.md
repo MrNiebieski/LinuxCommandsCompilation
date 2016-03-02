@@ -8,8 +8,9 @@ ls variations:
     ll
     ls -al
     ls -thor
+    ls -halt
 
-`al` list hidden file, `ll` is short, (not supported by every version of linux), `thor` because of this is funny.
+`al` list hidden file, `ll` is short, (not supported by every version of linux), `thor` and `halt` because of this is funny.
 
 
 cd variations:
