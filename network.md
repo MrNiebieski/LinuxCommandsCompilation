@@ -44,7 +44,8 @@ check if ip_forwarding is enabled, to chnage:
 ###iptables###
 
     iptables -L -n
-    
+   
+there is a differnece between `127.0.0.1` and `0.0.0.0`, if you want your port to be reachable from all your network, use `0.0.0.0`
     
 ----
 ###SSH:###
