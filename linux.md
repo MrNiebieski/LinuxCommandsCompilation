@@ -1,7 +1,7 @@
-#linux:#
+# linux: #
 
 ---
-###_file system_###
+### file system ###
 ---
 ls variations:
 
@@ -61,7 +61,7 @@ advanced `mkdir`
 
 
 ---
-###_chmod_###
+### chmod ###
 ---
 
 2 ways of using `chmod`
@@ -78,7 +78,7 @@ options for "who it applies to" `u` user, `g` group, `o` others `a` all.
 for example `600` is a very conservative mode. `777` is very loose.
 
 ---
-###_find_###
+### find ###
 ---
 
 _TODO: this section needs to be expanded_
@@ -104,7 +104,7 @@ However, if there is `space` in filename.
 
 
 ---
-###_grep_###
+### grep ###
 ---
 
 example:
@@ -123,7 +123,7 @@ Or
     grep -r --include "*.php" stringYouWantToFind .
 
 ---
-###_system info_###
+### system info ###
 ---
 `/proc` is a virtual filesystem that shows information of processes as files.
 
@@ -143,7 +143,7 @@ system:
     arch
     cat /etc/*release
 
-the last one is useful for detecting Ubuntu version etc.
+the last one is useful for detecting Ubuntu, Centos version etc.
 
 mount & unmount
 
@@ -160,7 +160,7 @@ show disk partition:
     cat /proc/partitions
 
 ---
-###_process management_###
+### process management ###
 ---
 show currently active processes, with their pid
 
@@ -180,7 +180,7 @@ suspend and resume:
     
 
 ---
-###_user management_###
+### user management ###
 ---
 
 check logged on users:
@@ -196,7 +196,7 @@ list user with `awk`:
     awk -F: '{print $1,$3,$6}' /etc/passwd
 
 ---
-###_pipes_###
+### pipes ###
 ---
 
     a > b
@@ -222,7 +222,7 @@ Redirect a's standard output to b's standard input
 
 
 ---
-###_keyboard shortcut_###
+### keyboard shortcut ###
 ---
 `ESC+.` paste last argument
 
@@ -252,7 +252,7 @@ although using up/down arrow can browse through recent command, it's more effici
 `PgUp` and `PgDn` in a terminal will scroll through commands, to actually scroll through terminal, use `shift+PgUp`, `shift+PgDown`. 
 
 ---
-###_start up setting_###
+### start up setting ###
 ---
 To switch betwen GUI mode and text mode (CentOS, RedHat), `sudo vim /etc/inittab`
 
@@ -267,7 +267,7 @@ to check runlevel:
     who -r
 
 ---
-###_shutting down_###
+### shutting down ###
 ---
 
     sudo shutdown -h now
@@ -276,7 +276,7 @@ to check runlevel:
     sudo poweroff
 
 ---
-###_pager_###
+### pager ###
 ---
 
 show certain lines of a file
@@ -285,7 +285,7 @@ show certain lines of a file
 
 
 ---
-###_miscellaneous_###
+### miscellaneous ###
 ---
 
 Run the lines in the file as if they were typed to the shell.
@@ -320,7 +320,3 @@ easiest way to create an empty file:
 `-e` after echo is to enable backlash `\`
 
     echo -e "1d\n2d\n5d" > commands.txt
-
-check Centos version:
-
-    cat /etc/redhat-release
