@@ -141,6 +141,9 @@ system:
 
     uname -a
     arch
+    cat /etc/*release
+
+the last one is useful for detecting Ubuntu version etc.
 
 mount & unmount
 
